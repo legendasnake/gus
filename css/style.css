@@ -1,0 +1,302 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+li {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+
+
+.header {
+    background: linear-gradient(270.22deg, #A5DEFF 0.19%, #FCFEFF 99.81%);
+    position: relative;
+    margin-bottom: 52px;
+}
+
+.header__ihner {
+    position: relative;
+    height: 720px;
+}
+.header__logo {
+    display: flex;
+    padding-top: 32px;
+    
+    align-items: center;
+    width: 242px;
+}
+.logo__img {
+    margin-right: 16px;
+}
+.logo__text {
+    font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+
+
+
+color: #010101
+}
+.header__gus {
+    position: absolute;
+    top:88px;
+    width: 597px;
+    height: 520px;
+    background: #FCFEFF;
+    border-radius: 10px;
+}
+.gus__title {
+    padding-top: 60px;
+    padding-left: 56px;
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+color: #151718;
+margin-bottom: 16px;
+}
+.gus__subtitle {
+    padding-left: 56px;
+
+
+    font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+
+
+/* orange */
+
+color: #FF6B0A;
+
+margin-bottom: 48px;
+}
+.gus__name {
+
+    padding-left: 56px;
+    font-size: 64px;
+line-height: 72px;
+/* identical to box height, or 112% */
+/* black */
+
+color: #151718;
+margin-bottom: 24px;
+}
+.gus__text {
+    padding-left: 56px;
+    width: 440px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+/* black */
+
+color: #151718;
+margin-bottom: 48px;
+}
+.gus__button {
+    border: none;
+    margin-left: 56px;
+    background: #FFFF;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #FF6B0A;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gus__button:hover{
+    background: #FF6B0A;
+    color: #FCFEFF;
+}
+
+
+.gus__img {
+    width: 640px;
+    height: 720px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+   
+}
+
+
+
+.gus__info {
+    
+}
+.container {
+}
+.info__ihner {
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+.trezub__info {
+    
+    margin-bottom: 16px;
+}
+.info__title {
+    margin-left: 200px;
+    margin-bottom: 16px;
+    font-weight: 600;
+font-size: 48px;
+line-height: 100px;
+/* identical to box height, or 208% */
+
+
+/* black */
+
+color: #151718;
+width: 813px;
+}
+.info__text {
+    margin-left: 200px;
+    margin-bottom: 24px;
+   font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+width: 875px;
+
+/* black */
+
+color: #151718;
+
+}
+
+
+.gus__images {
+   margin-bottom: 37px;
+}
+
+.images__ihner {
+    display:flex ;
+     
+     border-radius: 10px;
+     
+}
+.gus__card {
+    
+    width: 380px;
+    margin-bottom: 37px;
+    border-radius: 10px;
+    margin-right: 23px;
+    
+}
+.gus_card__img {
+    margin-bottom: 12px;
+}
+.card__title {
+    font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+
+
+text-align: center;
+
+/* black */
+
+color: #151718;
+margin-bottom: 32px;
+}
+.card__text {
+   margin-left:70px;
+    margin-bottom: 10px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+/* black */
+
+color: #151718;
+width: 280px;
+}
+
+
+.footer {
+    margin-bottom: 72px;
+}
+
+.foooter__ihner {
+    background: linear-gradient(270.22deg, #CEEFFF 0.19%, #FCFEFF 99.81%);
+border-radius: 10px;} 
+.footer__trezub {
+    padding-top: 71px;
+    margin-left: 569px;
+    margin-bottom: 16px;
+}
+.footer__title {
+    font-weight: 600;
+font-size: 48px;
+line-height: 100px;
+/* identical to box height, or 208% */
+text-align: center;
+
+
+/* black */
+
+color: #151718;
+
+margin-bottom: 16px;
+}
+.footer__text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+text-align: center;
+
+/* black */
+
+color: #151718;
+margin-left: 148px;
+padding-bottom: 72px;
+width: 875px;
+}
